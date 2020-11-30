@@ -29,7 +29,7 @@ User.propTypes = {
     title: PropTypes.string,
     first: PropTypes.string,
     last: PropTypes.string
-  }).required,
+  }).isRequired,
   location: PropTypes.object,
   email: PropTypes.string,
   picture: PropTypes.shape({
